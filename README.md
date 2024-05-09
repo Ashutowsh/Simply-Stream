@@ -7,7 +7,11 @@
 > 2. File uploaded should be short (recommended up to 75-80 MB and max 1080p)
 > 3. The server uses the FFmpeg library to convert the provided video into HLS (HTTP live streaming format) format.
 > 4. Then the video URL of that file is passed to the frontend client. The Frontend client makes use of the video.js library to play the video on the video player.
->
+
+### Request format - 
+1. POST Request
+2. URL : http://localhost:3000/upload
+3. file field name : file
 
 ### Code implementation : 
 
